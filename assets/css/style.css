@@ -1,0 +1,308 @@
+/* 1. IMPORT SECTION */
+	@import url("http://fonts.googleapis.com/css?family=Raleway:200,300,600,700&subset=latin,latin-ext");
+/* 2. BASIC STYLES */
+	body {
+		/*color: #60676f;*/
+		font-family: 'kalpurushregular';
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 1.471;
+	}
+	a { 
+		color: #000;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+	a:hover {
+		color: #000;
+	}
+
+	a, a:hover, a:active, a:focus, button:focus {
+		outline: 0;
+		border: 0;
+		text-decoration: none;
+	}
+	p {
+		line-height: 1.5;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+	    font-family: 'kalpurushregular';
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	input, textarea{
+		outline: none;
+	}
+
+	label{
+		font-weight: 300;
+	}
+.bgimg {
+	height: auto;
+	background: url(../images/kib.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  background-attachment: fixed;
+	  z-index:9999;
+	}
+.logo{padding:12px 0;font-size:20px;}
+.logo a{color:#25527B;font-weight:700;}
+.logo img{height:40px;}
+@media (max-width: 767px) {
+	.top_margin{height:0px;}
+	.devider{display:none !important;}
+	.logo{text-align:center !important;}
+	.BB-nav li a {
+		background-color: transparent;
+		line-height:1px !important;
+		padding:0;
+		}
+#BB-nav {
+  margin-bottom:10px !important; 
+  } 
+}
+
+#BB-nav {
+  margin-bottom:20px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.71);
+  z-index: 999;
+
+  }
+#BB-nav .dropdown-menu {
+    border: none; }
+
+.BB-nav li a {
+  background-color: transparent;
+  line-height:2.5 !important;
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  font-weight:700;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #286090 !important;
+  font-family: 'kalpurushregular';
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all; }
+ .BB-nav li a:hover {
+    background-color: transparent;
+    color: #25527B !important; }	
+.welcome{color:#fff;background: rgba(0,0,0,0.4);padding-top: 10px;}
+.welcome h3{font-size:30px;text-align:center;margin-bottom:20px;}
+.text1{font-size:21px;}
+.text2{font-size:22px;color:red;}
+.tel{width:30px; height:30px;}
+.text3{font-size:18px;color:#fff;}
+@media (max-width: 767px) {
+	.welcome h3{font-size:16px;}
+	.welcome p{font-size:18px;}
+	.mainpart {
+		margin-top: 0px !important;		
+	}	
+}
+
+
+.mainpart{margin-top:50px;
+    padding: 40px 0;
+    
+}
+.cusnav{color: #000;
+    font-weight: bold;
+	padding:8px 0;
+	}
+.formbody{
+    background:rgba(0,0,0,.4);
+	color:#fff !important;
+}
+
+/* HOME Form css */
+
+.btn{
+    color:#FFF;
+    background: #659F79;
+}
+.cus_btn{padding:12px 30px;
+    margin-top:40px;}
+.panel-heading{
+	color: #fff !important;
+    background-color: #2E4267 !important;
+    border-color: #ddd;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+/* membership form css */
+.col6{width: 50%;float: left;padding-right: 0px; 
+     padding-left: 0px;}
+.col3{width: 25%;float: left;padding-right: 0px; 
+     padding-left: 0px;}
+.membership{
+	background:#fff;
+	margin:0px 0 15px;
+	opacity:0.8;
+	padding:20px 15px;
+}
+.form-control {
+	border: 1px solid #ccc;
+	}
+.input-group-addon {
+    background-color: #eee;
+    border: 0px solid #ccc;
+    border-radius: 0px !important;
+}
+
+.box-body h4{
+    margin-top: 30px;
+    color: #000;
+    padding-left: 15px;
+}
+.box-body h5{
+    margin-top: 10px;
+    color: #000;
+    padding-left: 15px;
+}
+.box-body p{
+    padding-left: 15px;
+}
+
+.box-body p span{color:red;}
+.heading{text-align:center;}
+.heading span{color:red;}
+@media only screen and (min-width: 768px) {
+.space {padding: 15px 0 !important;}
+}
+@media only screen and (max-width: 768px) {
+.heading h2{font-size:20px;}
+}
+.cus-panel{color:red;}
+/* upload image css */
+.uploadcss{margin-top:30px;}
+.uploadcss p{font-size:18px;}
+.pad{display: inline-flex;}
+.pad i{
+  color:red;
+  padding-right:8px;
+  margin-top: 5px;
+  display: inline-flex;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 150px;
+    height: 150px;
+}
+
+
+/* search login css */
+.login{margin-top:60px;}
+/* .main-section{
+    background:url('../images/kib.jpg') no-repeat;
+    background-size:100% 100%;
+    margin: 0px;
+    width: 100%;
+	background-attachment: fixed;
+} */
+.input-group-addon {
+    background: #659F79;
+    color: white;
+}
+.secrch_cus{margin-top:80px}
+.cus_or1 {color:#C77073;}
+.cus_or2 {color:#659F79;}
+.user-login-header,.login-image-main{
+    margin-top: 15px;
+}
+.user-login-header h1{
+    font-size: 30px;
+    color:#fff;
+}
+.user-login-header p,.last-part p{
+    color:#c9c5c7;
+}
+.user-login-header span{
+    color:#fff;
+    font-weight: 600;
+}
+.login-image-main{
+    padding: 20px;
+    background-color:#fff;
+    border-radius:5px;
+    box-shadow: 0 0 5px 0 #fff;
+}
+.user-image-section img{
+    background-color: #B56162;
+    padding:30px;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+.user-login-box,.last-part{
+    padding:20px;
+}
+.user-login-box a,.user-login-box a:hover{
+    background-color: #B56162;
+    border:1px solid #B56162;
+    width: 100%;
+    color:#fff;
+    font-weight:600;
+}
+.last-part a{
+    text-decoration: none;
+    color:#B56162;
+}
+/* secrch login css */
+
+
+/* footer css */
+.footer-bottom {
+ background:#000;
+ padding:15px 0;
+ border-top:1px solid #d9d9d9;
+ font-size:14px;
+ color:#fff;
+ margin-bottom:0;
+}
+/* footer css */
+.footer{padding: 15px 0;}
+.footer p{color:#000;text-align:center; margin: 15px 0;}
+.footer p a{color:#a72626;text-align:center;}
